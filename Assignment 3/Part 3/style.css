@@ -70,3 +70,47 @@ h2 {
 section p {
   text-indent: 20px;
 }
+/* Links */
+
+a {
+  color: #aa6666;
+/* Remove the default focus outline from ALL the links on the page. */
+  outline: none;
+}
+
+a:visited {
+  color: #716363;
+}
+
+a:focus {
+  color: #d00d0d;
+}
+
+a:hover {
+  color: #e45151;
+  text-decoration: none;
+}
+
+a:active {
+  color: #aa6666;
+  text-shadow: 1px 1px 1px #f0aaaa;
+}
+
+a[href^="http"] {
+  background: url("external-link-52.png") no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1.6rem 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-latin;
+}
