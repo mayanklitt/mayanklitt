@@ -50,3 +50,23 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+html {
+  font-size: 10px;
+}
+body {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+header, section, aside, nav, footer {
+  font-size: 1.6em;
+  line-height: 1.7;
+}
+header {
+  text-align: center;
+}
+h2 {
+  letter-spacing: 1px;
+}
+section p {
+  text-indent: 20px;
+}
