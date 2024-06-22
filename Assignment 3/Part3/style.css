@@ -4,7 +4,20 @@ File: style.css
 Date: 21 June 2024
 In the given code, I make a home page
 */
-
+@font-face {
+  font-family: "calistogaregular";
+  src: url("font/calistoga-regular-webfont (1).woff2") format("woff2"),
+    url("font/calistoga-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "alefregula";
+  src: url("font/alef-regular-webfont.woff2") format("woff2"),
+    url("font/alef-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /* General setup */
 
 * {
@@ -52,6 +65,7 @@ header, footer {
 /* WRITE YOUR CODE BELOW HERE */
 html {
   font-size: 10px;
+  font-family: "alefregula", serif;
 }
 body {
   letter-spacing: 1px;
@@ -63,9 +77,11 @@ header, section, aside, nav, footer {
 }
 header {
   text-align: center;
+  font-family: "calistogaregular", sans-serif;
 }
 h2 {
   letter-spacing: 1px;
+  font-family: "calistogaregular", sans-serif;
 }
 section p {
   text-indent: 20px;
