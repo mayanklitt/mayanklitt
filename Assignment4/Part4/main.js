@@ -1,3 +1,7 @@
+// Name: mayank kumar
+// File: index.html
+// Date: 25 July 2024
+// Description : Bouncing Ball
 // set up canvas
 
 const canvas = document.querySelector("canvas");
