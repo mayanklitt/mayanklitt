@@ -1,5 +1,5 @@
 // Name: mayank kumar
-// File: index.html
+// File: main.js
 // Date: 24 July 2024
 // Description : Silly Story Generator
 

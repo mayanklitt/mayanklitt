@@ -1,3 +1,8 @@
+// Name: mayank kumar
+// File: index.html
+// Date: 25 July 2024
+// Description : Image Gallery
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
