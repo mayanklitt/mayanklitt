@@ -1,3 +1,8 @@
+//  Name: mayank kumar
+//  File: main.js
+//  Date: 09 Auguest 2024
+//  Description : Accessibility Troubleshooting assignment 
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
